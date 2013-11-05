@@ -11,7 +11,7 @@ node_modules: package.json
 
 .PHONY: test
 test: node_modules
-	./node_modules/.bin/mocha $(shell find . -name '*_test.js' -depth 1)
+	./node_modules/.bin/mocha $(shell find . -depth 1 -name '*_test.js')
 	@for factory in $(factories); do      \
 		echo ; \
 		echo "bugzilla_fixture/$$factory :" ;\
