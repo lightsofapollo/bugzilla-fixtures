@@ -19,5 +19,11 @@
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/mozilla-b2g-bot/bugzilla-fixtures/issues"
+  },
+  "dependencies": {
+    "object-factory": "~0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
   }
 }
